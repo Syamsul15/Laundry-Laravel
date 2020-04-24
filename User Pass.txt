@@ -1,0 +1,10 @@
+User : admin1
+Pass : admin1
+
+User : kasir1  		User : kasir2		User : kasir3
+Pass : kasir1		Pass : kasir2		Pass : kasir3
+
+User : owner1		User : owner2		User : owner3		
+Pass : owner1		Pass : owner2		Pass : owner3		
+
+*Password sama dengan username di semua akun

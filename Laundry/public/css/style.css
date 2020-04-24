@@ -1,0 +1,327 @@
+/**************** extend css start ****************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:300,400,500,600,700,800|Roboto:300,400,500");
+
+/**************** common css start ****************/
+.pagination li{
+  list-style-type: none;
+  margin:5px;
+}
+
+/* line 3, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+body {
+  background: linear-gradient(-135deg, #514A9D, #00AEEF);
+  height: 100vh;
+  font-family: "Bahnschrift";
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+/* line 63, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 66, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 72, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: "Bahnschrift";
+}
+
+/* line 76, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+p {
+  font-family: "Bahnschrift";
+  line-height: 2;
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #7f7f7f;
+  font-weight: 300;
+}
+
+/* line 84, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+h2 {
+  font-size: 44px;
+  line-height: 28px;
+  color: white;
+  font-weight: 600;
+  line-height: 1.222;
+}
+
+@media (max-width: 576px) {
+  /* line 84, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+  h2 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 84, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+  h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+/* line 101, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+h3 {
+  font-size: 24px;
+  line-height: 25px;
+}
+
+@media (max-width: 576px) {
+  /* line 101, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+  h3 {
+    font-size: 20px;
+  }
+}
+
+/* line 110, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 115, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_common.scss */
+img {
+  max-width: 100%;
+}
+
+/**************menu part start*****************/
+/* line 2, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.main_menu {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* line 9, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.main_menu .navbar-brand {
+  margin-top: -12px;
+  padding-top: 0rem;
+  padding-bottom: 0px;
+}
+
+/* line 14, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.main_menu .navbar {
+  padding: 0px;
+}
+
+/* line 20, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.main_menu .main-menu-item ul li .nav-link {
+  color: #fff;
+  font-size: 15px;
+  padding: 36px 23px;
+  font-family: "Bahnschrift";
+  text-transform: capitalize;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+/* line 29, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.main_menu .main-menu-item ul li .nav-link:hover {
+  color: whitesmoke;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 20, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .main_menu .main-menu-item ul li .nav-link {
+    padding: 35px 20px;
+  }
+}
+
+/* line 108, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.cart {
+  margin-left: 20px;
+}
+
+/* line 118, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.cart i {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  font-size: 15px;
+}
+
+/* line 141, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.menu_fixed {
+  position: fixed;
+  z-index: 9999 !important;
+  width: 100%;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+  top: 0;
+  background-color: #0ab6ff;
+}
+
+/* line 149, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.menu_fixed .active_color {
+  color: #0ab6ff !important;
+}
+
+@media (max-width: 991px) {
+  /* line 184, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .main_menu {
+    padding: 26px 0px;
+  }
+  /* line 188, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .home_menu .main-menu-item {
+    padding-left: 0px;
+  }
+  /* line 192, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .main_menu .main-menu-item {
+    text-align: left !important;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -9px;
+  }
+  /* line 196, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .main_menu .main-menu-item .nav-item {
+    padding: 10px 15px !important;
+  }
+  /* line 199, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .main_menu .main-menu-item .nav-item .nav-link {
+    padding: 5px 15px !important;
+    color: #000;
+  }
+  /* line 206, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .navbar-collapse {
+    z-index: 9999 !important;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center !important;
+  }
+  
+  /* line 236, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .navbar-brand img {
+    max-width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    top: 0;
+  }
+  /* line 246, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+    position: absolute;
+    left: 0;
+  }
+  /* line 260, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .menu_icon i {
+    color: #fff;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 267, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .main_menu {
+    padding: 20px 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 273, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+  .main_menu {
+    padding: 20px 0px;
+  }
+}
+
+/* line 296, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
+.home_menu .main-menu-item {
+  justify-content: center !important;
+}
+
+/* line 93, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+h1 {
+  font-size: 36px;
+}
+
+/* line 97, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+h2 {
+  font-size: 30px;
+}
+
+/* line 101, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 105, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+h4 {
+  font-size: 18px;
+}
+
+/* line 109, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+h5 {
+  font-size: 16px;
+}
+
+/* line 113, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+h6 {
+  font-size: 14px;
+}
+
+/* line 117, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em;
+}
+
+span{
+  color: #fff;
+  font-size: 15px;
+  font-family: "Bahnschrift";
+  text-transform: capitalize;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+/* line 127, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_elements.scss */
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+  color: #828bb2;
+}
+
+.thead{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+tr th{
+  color: white;
+  font-size: 15px;
+}
+
+tr td{
+  color: white;
+}
+
+label{
+  color: white;
+}
+
+option{
+  color: #00AEEF;
+}
+
+.form-control::-webkit-input-placeholder{
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
